@@ -2,7 +2,6 @@
 
 This repository showcases my Tableau project completed during Week 2 of the **Data Technician Bootcamp**, where I explored global health, retail, and music‑streaming datasets to develop strong data‑visualisation and storytelling skills. The project focused on building interactive dashboards, applying filters and slicers, and designing clear, insightful visuals for decision‑making.
 
-Tableau Public link: https://public.tableau.com/app/profile/max.medland/vizzes
 ---
 
 ## 🚀 Project Overview
@@ -94,7 +93,7 @@ https://public.tableau.com/app/profile/max.medland/viz/Spotify_stuff/SpotifyTren
 
 ## 🛠 Tools & Technologies
 
-- **Tableau Public**  
+- **Tableau Public** (https://public.tableau.com/app/profile/max.medland/vizzes)
 - Interactive dashboards  
 - Filters, slicers, and parameters  
 - Calculated fields & table calculations  
