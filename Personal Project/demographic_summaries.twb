@@ -1,0 +1,2805 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' inline='true' name='federated.0mglehe0as0ew514esl4p0nckws1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='blood_cell_anomaly_detection' name='excel-direct.04usrt80111g641082op90ngrdd9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/maxim/Documents/Max/personal/LEEP_Learning/Personal_project/Dataset/blood_cell_anomaly_detection.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.04usrt80111g641082op90ngrdd9' name='blood_cell_anomaly_detection' table='[blood_cell_anomaly_detection$]' type='table'>
+          <columns gridOrigin='A1:AJ5881:no:A1:AJ5881:0' header='yes' outcome='6'>
+            <column datatype='string' name='cell_id' ordinal='0' />
+            <column datatype='string' name='cell_type' ordinal='1' />
+            <column datatype='integer' name='anomaly_label' ordinal='2' />
+            <column datatype='string' name='disease_category' ordinal='3' />
+            <column datatype='real' name='cell_diameter_um' ordinal='4' />
+            <column datatype='real' name='nucleus_area_pct' ordinal='5' />
+            <column datatype='real' name='chromatin_density' ordinal='6' />
+            <column datatype='real' name='cytoplasm_ratio' ordinal='7' />
+            <column datatype='real' name='circularity' ordinal='8' />
+            <column datatype='real' name='eccentricity' ordinal='9' />
+            <column datatype='real' name='granularity_score' ordinal='10' />
+            <column datatype='real' name='lobularity_score' ordinal='11' />
+            <column datatype='real' name='membrane_smoothness' ordinal='12' />
+            <column datatype='integer' name='cell_area_px' ordinal='13' />
+            <column datatype='integer' name='perimeter_px' ordinal='14' />
+            <column datatype='integer' name='mean_r' ordinal='15' />
+            <column datatype='integer' name='mean_g' ordinal='16' />
+            <column datatype='integer' name='mean_b' ordinal='17' />
+            <column datatype='real' name='stain_intensity' ordinal='18' />
+            <column datatype='string' name='patient_age_group' ordinal='19' />
+            <column datatype='string' name='patient_sex' ordinal='20' />
+            <column datatype='integer' name='wbc_count_per_ul' ordinal='21' />
+            <column datatype='real' name='rbc_count_millions_per_ul' ordinal='22' />
+            <column datatype='real' name='hemoglobin_g_dl' ordinal='23' />
+            <column datatype='real' name='hematocrit_pct' ordinal='24' />
+            <column datatype='integer' name='platelet_count_per_ul' ordinal='25' />
+            <column datatype='real' name='mcv_fl' ordinal='26' />
+            <column datatype='real' name='mchc_g_dl' ordinal='27' />
+            <column datatype='string' name='dataset_source' ordinal='28' />
+            <column datatype='string' name='staining_protocol' ordinal='29' />
+            <column datatype='string' name='microscope_model' ordinal='30' />
+            <column datatype='integer' name='magnification_x' ordinal='31' />
+            <column datatype='integer' name='image_resolution_px' ordinal='32' />
+            <column datatype='real' name='cytodiffusion_anomaly_score' ordinal='33' />
+            <column datatype='real' name='cytodiffusion_classification_confidence' ordinal='34' />
+            <column datatype='real' name='labeller_confidence_score' ordinal='35' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AJ5881:no:A1:AJ5881:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cell_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cell_id]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>cell_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cell_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cell_type]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>cell_type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anomaly_label</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[anomaly_label]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>anomaly_label</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disease_category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[disease_category]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>disease_category</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cell_diameter_um</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cell_diameter_um]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>cell_diameter_um</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nucleus_area_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nucleus_area_pct]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>nucleus_area_pct</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chromatin_density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[chromatin_density]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>chromatin_density</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cytoplasm_ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cytoplasm_ratio]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>cytoplasm_ratio</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>circularity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[circularity]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>circularity</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eccentricity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[eccentricity]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>eccentricity</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>granularity_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[granularity_score]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>granularity_score</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lobularity_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lobularity_score]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>lobularity_score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>membrane_smoothness</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[membrane_smoothness]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>membrane_smoothness</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cell_area_px</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cell_area_px]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>cell_area_px</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perimeter_px</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[perimeter_px]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>perimeter_px</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mean_r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mean_r]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>mean_r</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mean_g</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mean_g]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>mean_g</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mean_b</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mean_b]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>mean_b</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stain_intensity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stain_intensity]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>stain_intensity</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_age_group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[patient_age_group]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>patient_age_group</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[patient_sex]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>patient_sex</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wbc_count_per_ul</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wbc_count_per_ul]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>wbc_count_per_ul</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rbc_count_millions_per_ul</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rbc_count_millions_per_ul]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>rbc_count_millions_per_ul</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hemoglobin_g_dl</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hemoglobin_g_dl]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>hemoglobin_g_dl</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hematocrit_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hematocrit_pct]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>hematocrit_pct</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>platelet_count_per_ul</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[platelet_count_per_ul]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>platelet_count_per_ul</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mcv_fl</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mcv_fl]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>mcv_fl</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mchc_g_dl</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mchc_g_dl]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>mchc_g_dl</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dataset_source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[dataset_source]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>dataset_source</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>staining_protocol</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[staining_protocol]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>staining_protocol</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>microscope_model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[microscope_model]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>microscope_model</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>magnification_x</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[magnification_x]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>magnification_x</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>image_resolution_px</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[image_resolution_px]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>image_resolution_px</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cytodiffusion_anomaly_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cytodiffusion_anomaly_score]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>cytodiffusion_anomaly_score</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cytodiffusion_classification_confidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cytodiffusion_classification_confidence]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>cytodiffusion_classification_confidence</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>labeller_confidence_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[labeller_confidence_score]</local-name>
+            <parent-name>[blood_cell_anomaly_detection]</parent-name>
+            <remote-alias>labeller_confidence_score</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='blood_cell_anomaly_detection' datatype='table' name='[__tableau_internal_object_id__].[blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306]' role='measure' type='quantitative' />
+      <column caption='Anomaly Label' datatype='integer' name='[anomaly_label]' role='measure' type='quantitative'>
+        <aliases>
+          <alias key='0' value='Normal' />
+          <alias key='1' value='Anormal' />
+        </aliases>
+      </column>
+      <column caption='Cell Area Px' datatype='integer' name='[cell_area_px]' role='measure' type='quantitative' />
+      <column caption='Cell Diameter Um' datatype='real' name='[cell_diameter_um]' role='measure' type='quantitative' />
+      <column caption='Cell Id' datatype='string' name='[cell_id]' role='dimension' type='nominal' />
+      <column caption='Cell Type' datatype='string' name='[cell_type]' role='dimension' type='nominal' />
+      <column caption='Chromatin Density' datatype='real' name='[chromatin_density]' role='measure' type='quantitative' />
+      <column caption='Circularity' datatype='real' name='[circularity]' role='measure' type='quantitative' />
+      <column caption='Cytodiffusion Anomaly Score' datatype='real' name='[cytodiffusion_anomaly_score]' role='measure' type='quantitative' />
+      <column caption='Cytodiffusion Classification Confidence' datatype='real' name='[cytodiffusion_classification_confidence]' role='measure' type='quantitative' />
+      <column caption='Cytoplasm Ratio' datatype='real' name='[cytoplasm_ratio]' role='measure' type='quantitative' />
+      <column caption='Dataset Source' datatype='string' name='[dataset_source]' role='dimension' type='nominal' />
+      <column caption='Disease Category' datatype='string' name='[disease_category]' role='dimension' type='nominal' />
+      <column caption='Eccentricity' datatype='real' name='[eccentricity]' role='measure' type='quantitative' />
+      <column caption='Granularity Score' datatype='real' name='[granularity_score]' role='measure' type='quantitative' />
+      <column caption='Hematocrit Pct' datatype='real' name='[hematocrit_pct]' role='measure' type='quantitative' />
+      <column caption='Hemoglobin G Dl' datatype='real' name='[hemoglobin_g_dl]' role='measure' type='quantitative' />
+      <column caption='Image Resolution Px' datatype='integer' name='[image_resolution_px]' role='measure' type='quantitative' />
+      <column caption='Labeller Confidence Score' datatype='real' name='[labeller_confidence_score]' role='measure' type='quantitative' />
+      <column caption='Lobularity Score' datatype='real' name='[lobularity_score]' role='measure' type='quantitative' />
+      <column caption='Magnification X' datatype='integer' name='[magnification_x]' role='measure' type='quantitative' />
+      <column caption='Mchc G Dl' datatype='real' name='[mchc_g_dl]' role='measure' type='quantitative' />
+      <column caption='Mcv Fl' datatype='real' name='[mcv_fl]' role='measure' type='quantitative' />
+      <column caption='Mean B' datatype='integer' name='[mean_b]' role='measure' type='quantitative' />
+      <column caption='Mean G' datatype='integer' name='[mean_g]' role='measure' type='quantitative' />
+      <column caption='Mean R' datatype='integer' name='[mean_r]' role='measure' type='quantitative' />
+      <column caption='Membrane Smoothness' datatype='real' name='[membrane_smoothness]' role='measure' type='quantitative' />
+      <column caption='Microscope Model' datatype='string' name='[microscope_model]' role='dimension' type='nominal' />
+      <column caption='Nucleus Area Pct' datatype='real' name='[nucleus_area_pct]' role='measure' type='quantitative' />
+      <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+      <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;F&quot;' value='Female' />
+          <alias key='&quot;M&quot;' value='Male' />
+        </aliases>
+      </column>
+      <column caption='Perimeter Px' datatype='integer' name='[perimeter_px]' role='measure' type='quantitative' />
+      <column caption='Platelet Count Per Ul' datatype='integer' name='[platelet_count_per_ul]' role='measure' type='quantitative' />
+      <column caption='Rbc Count Millions Per Ul' datatype='real' name='[rbc_count_millions_per_ul]' role='measure' type='quantitative' />
+      <column caption='Stain Intensity' datatype='real' name='[stain_intensity]' role='measure' type='quantitative' />
+      <column caption='Staining Protocol' datatype='string' name='[staining_protocol]' role='dimension' type='nominal' />
+      <column caption='Wbc Count Per Ul' datatype='integer' name='[wbc_count_per_ul]' role='measure' type='quantitative' />
+      <column-instance column='[anomaly_label]' derivation='Avg' name='[avg:anomaly_label:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[anomaly_label]' derivation='CountD' name='[ctd:anomaly_label:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[anomaly_label]' derivation='None' name='[none:anomaly_label:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+      <column-instance column='[anomaly_label]' derivation='Sum' name='[sum:anomaly_label:ok]' pivot='key' type='ordinal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[sum:anomaly_label:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1880</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>505</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>246</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>235</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>532</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>181</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:anomaly_label:ok]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[ctd:anomaly_label:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1880</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>505</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>246</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>235</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>532</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>181</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[avg:anomaly_label:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0.31422791638570463</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1880.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>0.30550514216575925</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>1.0</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>0.32931726907630521</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>0.31978798586572438</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>0.33192090395480228</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>0.0</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>0.31046312178387653</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>0.31972789115646261</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>0.32532601235415237</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>0.32778804682686385</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:patient_sex:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;M&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;F&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:patient_age_group:nk]' palette='tableau-10' type='palette'>
+            <map to='#7f7f7f'>
+              <bucket>&quot;Adult&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;Pediatric&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;Elderly&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='blood_cell_anomaly_detection' id='blood!cell!anomaly!detection_E0EC0A0C32B6470982E31236348BE306'>
+            <properties context=''>
+              <relation connection='excel-direct.04usrt80111g641082op90ngrdd9' name='blood_cell_anomaly_detection' table='[blood_cell_anomaly_detection$]' type='table'>
+                <columns gridOrigin='A1:AJ5881:no:A1:AJ5881:0' header='yes' outcome='6'>
+                  <column datatype='string' name='cell_id' ordinal='0' />
+                  <column datatype='string' name='cell_type' ordinal='1' />
+                  <column datatype='integer' name='anomaly_label' ordinal='2' />
+                  <column datatype='string' name='disease_category' ordinal='3' />
+                  <column datatype='real' name='cell_diameter_um' ordinal='4' />
+                  <column datatype='real' name='nucleus_area_pct' ordinal='5' />
+                  <column datatype='real' name='chromatin_density' ordinal='6' />
+                  <column datatype='real' name='cytoplasm_ratio' ordinal='7' />
+                  <column datatype='real' name='circularity' ordinal='8' />
+                  <column datatype='real' name='eccentricity' ordinal='9' />
+                  <column datatype='real' name='granularity_score' ordinal='10' />
+                  <column datatype='real' name='lobularity_score' ordinal='11' />
+                  <column datatype='real' name='membrane_smoothness' ordinal='12' />
+                  <column datatype='integer' name='cell_area_px' ordinal='13' />
+                  <column datatype='integer' name='perimeter_px' ordinal='14' />
+                  <column datatype='integer' name='mean_r' ordinal='15' />
+                  <column datatype='integer' name='mean_g' ordinal='16' />
+                  <column datatype='integer' name='mean_b' ordinal='17' />
+                  <column datatype='real' name='stain_intensity' ordinal='18' />
+                  <column datatype='string' name='patient_age_group' ordinal='19' />
+                  <column datatype='string' name='patient_sex' ordinal='20' />
+                  <column datatype='integer' name='wbc_count_per_ul' ordinal='21' />
+                  <column datatype='real' name='rbc_count_millions_per_ul' ordinal='22' />
+                  <column datatype='real' name='hemoglobin_g_dl' ordinal='23' />
+                  <column datatype='real' name='hematocrit_pct' ordinal='24' />
+                  <column datatype='integer' name='platelet_count_per_ul' ordinal='25' />
+                  <column datatype='real' name='mcv_fl' ordinal='26' />
+                  <column datatype='real' name='mchc_g_dl' ordinal='27' />
+                  <column datatype='string' name='dataset_source' ordinal='28' />
+                  <column datatype='string' name='staining_protocol' ordinal='29' />
+                  <column datatype='string' name='microscope_model' ordinal='30' />
+                  <column datatype='integer' name='magnification_x' ordinal='31' />
+                  <column datatype='integer' name='image_resolution_px' ordinal='32' />
+                  <column datatype='real' name='cytodiffusion_anomaly_score' ordinal='33' />
+                  <column datatype='real' name='cytodiffusion_classification_confidence' ordinal='34' />
+                  <column datatype='real' name='labeller_confidence_score' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0mglehe0as0ew514esl4p0nckws1'>
+      <datasources>
+        <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' name='federated.0mglehe0as0ew514esl4p0nckws1' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0mglehe0as0ew514esl4p0nckws1'>
+        <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+        <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+        <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+          <aliases>
+            <alias key='&quot;F&quot;' value='Female' />
+            <alias key='&quot;M&quot;' value='Male' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]'>
+        <groupfilter function='level-members' level='[none:patient_age_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]'>
+        <groupfilter function='level-members' level='[none:patient_sex:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='abnormaltiy pie'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Proportion of Normal to Anormal cells</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' name='federated.0mglehe0as0ew514esl4p0nckws1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mglehe0as0ew514esl4p0nckws1'>
+            <column caption='Anomaly Label' datatype='integer' name='[anomaly_label]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Normal' />
+                <alias key='1' value='Anormal' />
+              </aliases>
+            </column>
+            <column caption='Cell Id' datatype='string' name='[cell_id]' role='dimension' type='nominal' />
+            <column-instance column='[cell_id]' derivation='Count' name='[cnt:cell_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[anomaly_label]' derivation='None' name='[none:anomaly_label:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;F&quot;' value='Female' />
+                <alias key='&quot;M&quot;' value='Male' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <manual-sort column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>0</bucket>
+              <bucket>1</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</column>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]' />
+              <wedge-size column='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' />
+              <size column='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' />
+              <text column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]' />
+              <text column='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run><![CDATA[<[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D4CBE136-CA8A-4373-A020-B889672A56F0}' />
+    </worksheet>
+    <worksheet name='age group pie'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Patient Age Group split</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' name='federated.0mglehe0as0ew514esl4p0nckws1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mglehe0as0ew514esl4p0nckws1'>
+            <column caption='Cell Id' datatype='string' name='[cell_id]' role='dimension' type='nominal' />
+            <column-instance column='[cell_id]' derivation='Count' name='[cnt:cell_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;F&quot;' value='Female' />
+                <alias key='&quot;M&quot;' value='Male' />
+              </aliases>
+            </column>
+            <column-instance column='[cell_id]' derivation='Count' name='[pcto:cnt:cell_id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</column>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' />
+              <wedge-size column='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' />
+              <size column='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' />
+              <text column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' />
+              <text column='[federated.0mglehe0as0ew514esl4p0nckws1].[pcto:cnt:cell_id:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[<[federated.0mglehe0as0ew514esl4p0nckws1].[pcto:cnt:cell_id:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{26C2F889-886F-487C-BE8F-752522D3DF96}' />
+    </worksheet>
+    <worksheet name='demographic chart'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Bar chart of cell type count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' name='federated.0mglehe0as0ew514esl4p0nckws1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mglehe0as0ew514esl4p0nckws1'>
+            <column caption='Anomaly Label' datatype='integer' name='[anomaly_label]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Normal' />
+                <alias key='1' value='Anormal' />
+              </aliases>
+            </column>
+            <column caption='Cell Id' datatype='string' name='[cell_id]' role='dimension' type='nominal' />
+            <column caption='Cell Type' datatype='string' name='[cell_type]' role='dimension' type='nominal' />
+            <column-instance column='[cell_id]' derivation='Count' name='[cnt:cell_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[anomaly_label]' derivation='None' name='[none:anomaly_label:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cell_type]' derivation='None' name='[none:cell_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;F&quot;' value='Female' />
+                <alias key='&quot;M&quot;' value='Male' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_type:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</column>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:qk]' palette='red_green_white_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_type:nk]</rows>
+        <cols>[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]</cols>
+      </table>
+      <simple-id uuid='{EAC66CB7-C957-4400-96ED-F3005439BE4F}' />
+    </worksheet>
+    <worksheet name='gender pie'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Patient sex split</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' name='federated.0mglehe0as0ew514esl4p0nckws1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mglehe0as0ew514esl4p0nckws1'>
+            <column caption='Cell Id' datatype='string' name='[cell_id]' role='dimension' type='nominal' />
+            <column-instance column='[cell_id]' derivation='Count' name='[cnt:cell_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;F&quot;' value='Female' />
+                <alias key='&quot;M&quot;' value='Male' />
+              </aliases>
+            </column>
+            <column-instance column='[cell_id]' derivation='Count' name='[pcto:cnt:cell_id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <manual-sort column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;F&quot;</bucket>
+              <bucket>&quot;M&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</column>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0mglehe0as0ew514esl4p0nckws1].[pcto:cnt:cell_id:qk]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' />
+              <wedge-size column='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' />
+              <size column='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' />
+              <text column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' />
+              <text column='[federated.0mglehe0as0ew514esl4p0nckws1].[pcto:cnt:cell_id:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[<[federated.0mglehe0as0ew514esl4p0nckws1].[pcto:cnt:cell_id:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D6AC1455-B1AF-4DBC-BADB-B4745E12953A}' />
+    </worksheet>
+    <worksheet name='red blood cells'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Red blood cell count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' name='federated.0mglehe0as0ew514esl4p0nckws1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mglehe0as0ew514esl4p0nckws1'>
+            <column caption='Anomaly Label' datatype='integer' name='[anomaly_label]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Normal' />
+                <alias key='1' value='Anormal' />
+              </aliases>
+            </column>
+            <column-instance column='[rbc_count_millions_per_ul]' derivation='Avg' name='[avg:rbc_count_millions_per_ul:qk]' pivot='key' type='quantitative' />
+            <column caption='Cell Id' datatype='string' name='[cell_id]' role='dimension' type='nominal' />
+            <column-instance column='[anomaly_label]' derivation='None' name='[none:anomaly_label:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[cell_id]' derivation='None' name='[none:cell_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;F&quot;' value='Female' />
+                <alias key='&quot;M&quot;' value='Male' />
+              </aliases>
+            </column>
+            <column caption='Rbc Count Millions Per Ul' datatype='real' name='[rbc_count_millions_per_ul]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</column>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0mglehe0as0ew514esl4p0nckws1].[avg:rbc_count_millions_per_ul:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_id:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0mglehe0as0ew514esl4p0nckws1].[avg:rbc_count_millions_per_ul:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0mglehe0as0ew514esl4p0nckws1].[avg:rbc_count_millions_per_ul:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+                <format attr='mark-color' value='#ff0000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0mglehe0as0ew514esl4p0nckws1].[avg:rbc_count_millions_per_ul:qk]</rows>
+        <cols>[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]</cols>
+      </table>
+      <simple-id uuid='{C2FF3C22-EF02-4240-853D-D9FB748B2EFA}' />
+    </worksheet>
+    <worksheet name='white blood cells'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>White blood cell count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' name='federated.0mglehe0as0ew514esl4p0nckws1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mglehe0as0ew514esl4p0nckws1'>
+            <column caption='Anomaly Label' datatype='integer' name='[anomaly_label]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Normal' />
+                <alias key='1' value='Anormal' />
+              </aliases>
+            </column>
+            <column-instance column='[wbc_count_per_ul]' derivation='Avg' name='[avg:wbc_count_per_ul:qk]' pivot='key' type='quantitative' />
+            <column caption='Cell Id' datatype='string' name='[cell_id]' role='dimension' type='nominal' />
+            <column-instance column='[anomaly_label]' derivation='None' name='[none:anomaly_label:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[cell_id]' derivation='None' name='[none:cell_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+            <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;F&quot;' value='Female' />
+                <alias key='&quot;M&quot;' value='Male' />
+              </aliases>
+            </column>
+            <column caption='Wbc Count Per Ul' datatype='integer' name='[wbc_count_per_ul]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</column>
+            <column>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0mglehe0as0ew514esl4p0nckws1].[avg:wbc_count_per_ul:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_id:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0mglehe0as0ew514esl4p0nckws1].[avg:wbc_count_per_ul:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0mglehe0as0ew514esl4p0nckws1].[avg:wbc_count_per_ul:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0mglehe0as0ew514esl4p0nckws1].[avg:wbc_count_per_ul:qk]</rows>
+        <cols>[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]</cols>
+      </table>
+      <simple-id uuid='{64DE915D-8674-40DC-85A5-B3AEDA5B1D5E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='demographic dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Blood Anomaly Patient Demographic Trends</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='blood_cell_anomaly_detection (blood_cell_anomaly_detection)' name='federated.0mglehe0as0ew514esl4p0nckws1' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0mglehe0as0ew514esl4p0nckws1'>
+        <column-instance column='[patient_age_group]' derivation='None' name='[none:patient_age_group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[patient_sex]' derivation='None' name='[none:patient_sex:nk]' pivot='key' type='nominal' />
+        <column caption='Patient Age Group' datatype='string' name='[patient_age_group]' role='dimension' type='nominal' />
+        <column caption='Patient Sex' datatype='string' name='[patient_sex]' role='dimension' type='nominal'>
+          <aliases>
+            <alias key='&quot;F&quot;' value='Female' />
+            <alias key='&quot;M&quot;' value='Male' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='96' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='6125' id='97' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91875' id='79' param='horz' type-v2='layout-flow' w='98400' x='800' y='7125'>
+              <zone h='91875' id='54' type-v2='layout-basic' w='98400' x='800' y='7125'>
+                <zone h='45937' id='36' param='horz' type-v2='layout-flow' w='98400' x='800' y='7125'>
+                  <zone h='45937' id='34' type-v2='layout-basic' w='98400' x='800' y='7125'>
+                    <zone h='45937' id='24' name='abnormaltiy pie' w='35499' x='800' y='7125'>
+                      <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='18632' id='26' name='abnormaltiy pie' pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' type-v2='size' w='16899' x='36299' y='7125'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='18516' id='25' name='abnormaltiy pie' pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]' type-v2='color' w='16899' x='36299' y='25757'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='26367' id='38' name='abnormaltiy pie' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' type-v2='filter' w='15501' x='53198' y='7125'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='19570' id='37' name='abnormaltiy pie' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' type-v2='filter' w='15501' x='53198' y='33492'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='33518' id='74' name='age group pie' w='30501' x='68699' y='19544'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='12419' id='77' name='age group pie' pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' type-v2='color' w='30501' x='68699' y='7125'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='8789' id='80' name='demographic chart' pane-specification-id='1' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:qk]' type-v2='color' w='16899' x='36299' y='44273'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone h='45938' id='53' name='demographic chart' w='67896' x='800' y='53062'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='37152' id='67' name='gender pie' w='30504' x='68696' y='61848'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='8786' id='70' name='gender pie' pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' type-v2='color' w='30504' x='68696' y='53062'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1'>Blood Anomaly Patient Demographic Trends</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='111' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='110' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='6125' id='97' type-v2='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='26367' id='38' mode='checkdropdown' name='abnormaltiy pie' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' type-v2='filter' w='15501' x='53198' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19570' id='37' mode='checkdropdown' name='abnormaltiy pie' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' type-v2='filter' w='15501' x='53198' y='33492'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45937' id='24' is-fixed='true' name='abnormaltiy pie' w='35499' x='800' y='7125'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18632' id='26' name='abnormaltiy pie' pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' type-v2='size' w='16899' x='36299' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18516' id='25' name='abnormaltiy pie' pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]' type-v2='color' w='16899' x='36299' y='25757'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='260' h='33518' id='74' is-fixed='true' name='age group pie' w='30501' x='68699' y='19544'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12419' id='77' name='age group pie' pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' type-v2='color' w='30501' x='68699' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45938' id='53' is-fixed='true' name='demographic chart' w='67896' x='800' y='53062'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8789' id='80' name='demographic chart' pane-specification-id='1' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:qk]' type-v2='color' w='16899' x='36299' y='44273'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37152' id='67' is-fixed='true' name='gender pie' w='30504' x='68696' y='61848'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8786' id='70' name='gender pie' pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' type-v2='color' w='30504' x='68696' y='53062'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2949DBFC-114B-48A8-8818-C5685DB08903}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='white blood cells'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' type='filter' />
+            <card param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_id:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E49B6E19-A41C-4F1B-9874-B7206C2B9760}' />
+    </window>
+    <window class='worksheet' name='red blood cells'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_id:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{74EBA2FC-AA4F-4417-8BC7-194B905AD4B1}' />
+    </window>
+    <window class='worksheet' name='demographic chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[attr:anomaly_label:qk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[avg:anomaly_label:ok]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:qk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_id:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_type:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:disease_category:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0481EEB8-50E7-4AF7-A077-32CC69DB764F}' />
+    </window>
+    <window class='worksheet' name='abnormaltiy pie'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]' type='color' />
+            <card pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:anomaly_label:ok]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E77989D5-8BB8-4847-B617-9C676F98753C}' />
+    </window>
+    <window class='worksheet' name='gender pie'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_id:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{085E14B7-A616-42D9-96B7-23AD74BAEE70}' />
+    </window>
+    <window class='worksheet' name='age group pie'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0mglehe0as0ew514esl4p0nckws1].[cnt:cell_id:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:cell_id:nk]</field>
+            <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AA749BCA-F27F-4E69-9042-0E6F7DF1B72F}' />
+    </window>
+    <window class='dashboard' maximized='true' name='demographic dashboard'>
+      <viewpoints>
+        <viewpoint name='abnormaltiy pie'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='age group pie'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_age_group:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='demographic chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='gender pie'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0mglehe0as0ew514esl4p0nckws1].[none:patient_sex:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{7D5E3BDE-4E83-477C-88FB-D9DDDA944177}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='abnormaltiy pie' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='age group pie' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='demographic chart' width='192'>
+      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
+      nCinagAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='demographic dashboard' width='192'>
+      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
+      mmEAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='gender pie' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='red blood cells' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='white blood cells' width='192'>
+      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
+      HL9EAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
