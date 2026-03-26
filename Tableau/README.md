@@ -19,7 +19,7 @@ The project emphasised:
 ## 🧠 Key Skills Demonstrated
 
 ### 📈 Interactive Dashboards
-- Built multi‑sheet dashboards combining bar charts, line charts, pie charts, scatter plots, and custom visuals  
+- Built multi-sheet dashboards combining bar charts, line charts, pie charts, scatter plots, and custom visuals  
 - Applied interactive filters (Country, Continent, Year)  
 - Ensured filters applied across relevant worksheets for a smooth user experience  
 - Published dashboards to Tableau Public for sharing and collaboration  
@@ -56,10 +56,10 @@ The project emphasised:
 
 ## 🌍 Project Highlights
 
-### **Great Britan Employment Dashboard**
+### **Great Britain Employment Dashboard**
 Visualised:
 
-- Geospacial Growth patterns
+- Geospatial Growth patterns
 - Growth Rate Benchmarking
 - Sector performance differences
   - both positive and negative
@@ -96,7 +96,7 @@ Explored:
 
 - Life expectancy varies significantly by continent, with clear upward trends in many regions.  
 - Gender population distributions reveal demographic imbalances that can inform healthcare planning.  
-- BMI and life expectancy show continent‑level clustering, highlighting lifestyle and socioeconomic differences.  
+- BMI and life expectancy show continent‑level clustering, highlighting lifestyle and socio-economic differences.  
 - Spotify data shows that upbeat tracks tend to be more popular, and certain musical keys dominate modern genres.  
 
 ---
