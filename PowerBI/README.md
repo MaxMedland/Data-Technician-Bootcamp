@@ -31,7 +31,7 @@ Across several guided labs and practical exercises, I built Power BI reports tha
 - Created measures for dynamic aggregations such as:
   - Total Sales  
   - Average Order Value  
-  - Year‑over‑Year comparisons  
+  - Year-on-year comparisons  
 - Used functions like `CALCULATE`, `SUM`, `DIVIDE`, and time‑intelligence expressions  
 
 ---
