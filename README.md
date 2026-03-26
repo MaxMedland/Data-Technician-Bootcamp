@@ -21,7 +21,7 @@ The bootcamp focuses on bridging the gap between raw data and actionable busines
 Throughout the bootcamp, I gained proficiency in industry-leading tools:
 * **Microsoft Excel:** Advanced formulas, PivotTables, and data modelling.
 * **SQL:** Querying relational databases to extract specific information.
-* **Python:** Data manipulation using **Pandas** and **NumPy**; visualization with **Matplotlib** and **Seaborn**.
+* **Python:** Data manipulation using **Pandas** and **NumPy**; visualisation with **Matplotlib** and **Seaborn**.
 * **Power BI & Tableau:** Building interactive business intelligence dashboards.
 * **Microsoft Azure:** Exploring cloud data fundamentals and analytics workloads.
 * **GitHub:** Version control and professional portfolio management.
